@@ -5,7 +5,7 @@ c = float(input('informe a terceira nota: '))
 if 10>= a >=0:
     if 10>= b >=0:
         if 10>= c >=0:        
-                mc = float(input('agora informe o metodo de calculo de media entre (1)aritimetico ou (2)ponterada: '))
+                mc = float(input('agora informe o metodo de calculo de media entre (1)aritimetico ou (2)ponderada: '))
 
 
                 if mc == 1:
@@ -18,7 +18,7 @@ if 10>= a >=0:
                     p = float(input('informe o peso da terceira nota: '))
 
                     mg = ((a*i) + (b*o) + (c*p))/(i+o+p)
-                    print('a media ponterada é: ', mg)
+                    print('a media ponderada é: ', mg)
 
                 else:
                     print('opção invalida')
