@@ -8,7 +8,9 @@
 A primeira possui 4 questões que trabalham diferentes habilidades ensinadas até o momento durante as aulas.
 
 ***2ª Atividade: Fazer um jogo de adivinhação***
+
 A Segunda nos desafia a fazer um jogo de adivinhação onde usaremos um novo codigo o <ins> randon </ins>
 
 ***3ª Atividade: Joguinho de aventura***
+
 E a Terceira e ultima nos faz elevar nossas habilidades ate o momento, para criar um jogo de aventura de escolhas
