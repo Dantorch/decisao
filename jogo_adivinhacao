@@ -1,0 +1,36 @@
+import random
+
+numero = random.randint(0, 100)
+
+print("JOGO DE ADIVINHAÇÃO")
+print("Jogadores escolhan um número entre 0 e 100!")
+print()
+
+jogador1 = int(input("Jogador 1 informe um numero de 0 a 100: "))
+jogador2 = int(input("Jogador 2 informe um numero de 0 a 100 "))
+jogador3 = int(input("Jogador 3 informe um numero de 0 a 100: "))
+
+if jogador1 == numero:
+    print("Parabens acertou o Numero ganhou 500 reais de divida")
+elif jogador1 > numero:
+    print("Errou Numero muito alto")
+else:
+    print("Errou numero muito baixo")
+
+
+if jogador2 == numero:
+    print("Parabens acertou o Numero ganhou 500 reais de divida")
+elif jogador2 > numero:
+    print("Errou Numero muito alto")
+else:
+    print("Errou numero muito baixo")
+
+
+if jogador3 == numero:
+    print("Parabens acertou o Numero ganhou 500 reais de divida")
+elif jogador3 > numero:
+    print("Errou Numero muito alto")
+else:
+    print("Errou numero muito baixo")
+
+print(numero)
